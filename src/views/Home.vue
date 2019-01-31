@@ -1,18 +1,18 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <firebase msg="msg from home" />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+import Firebase from "@/components/Firebase.vue";
 
 export default {
   name: "home",
   components: {
-    HelloWorld
+    Firebase
   }
 };
 </script>

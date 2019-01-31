@@ -1,0 +1,25 @@
+[debug] [2019-01-31T04:15:07.020Z] ----------------------------------------------------------------------
+[debug] [2019-01-31T04:15:07.023Z] Command:       /home/fathead/.nvm/versions/node/v10.5.0/bin/node /home/fathead/.yarn/bin/firebase serve
+[debug] [2019-01-31T04:15:07.023Z] CLI Version:   6.3.0
+[debug] [2019-01-31T04:15:07.023Z] Platform:      linux
+[debug] [2019-01-31T04:15:07.023Z] Node Version:  v10.5.0
+[debug] [2019-01-31T04:15:07.024Z] Time:          Wed Jan 30 2019 23:15:07 GMT-0500 (Eastern Standard Time)
+[debug] [2019-01-31T04:15:07.024Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-01-31T04:15:07.034Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-01-31T04:15:07.034Z] > authorizing via signed-in user
+[debug] [2019-01-31T04:15:07.034Z] [iam] checking project grokology-b25c4 for permissions ["firebase.projects.get"]
+[debug] [2019-01-31T04:15:07.037Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/grokology-b25c4:testIamPermissions  
+
+[debug] [2019-01-31T04:15:07.381Z] <<< HTTP RESPONSE 200
+[debug] [2019-01-31T04:15:07.383Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/grokology-b25c4  
+ 
+[debug] [2019-01-31T04:15:07.719Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/fathead/Workspace/udemy/library'...
+[info] 
+[debug] [2019-01-31T04:15:07.720Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/961422479623/clients/_:getWebAppConfig  
+ 
+[debug] [2019-01-31T04:15:08.062Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: dist
+[info] ✔  hosting: Local server: http://localhost:5000
