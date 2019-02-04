@@ -1,6 +1,4 @@
-import * as firebase from "firebase";
-// eslint-disable-next-line
-import firestore from "firebase/firestore";
+import firebase from "firebase";
 
 // Initialize Firebase
 var config = {
@@ -12,5 +10,3 @@ var config = {
   messagingSenderId: "961422479623"
 };
 firebase.initializeApp(config);
-let db = firebase.firestore();
-export default db;

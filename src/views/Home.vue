@@ -1,18 +1,19 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <firebase msg="msg from home" />
-  </div>
+  <span>
+    <home-hero></home-hero>
+    <book-list></book-list>
+  </span>
 </template>
 
 <script>
-// @ is an alias to /src
-import Firebase from "@/components/Firebase.vue";
+import HomeHero from "@/components/HomeHero.vue";
+import BookList from "@/components/BookList.vue";
 
 export default {
   name: "home",
   components: {
-    Firebase
+    HomeHero,
+    BookList
   }
 };
 </script>
